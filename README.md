@@ -11,6 +11,7 @@ What I want to accomplish before adding graphics:
   - A class Box which repersents one box on a tic tac toe board 
   - A class Board which repersents the entire tic tac toe board
   - An AI which can read the board and choose the best move 
+  
 Once everything above is finished I want to create the graphical repersentation of the game
 
 Extra things that would be cool to add: 
