@@ -5,10 +5,9 @@ The goal is to create a working TicTacToe program that uses java's Swing library
 My goals for this project:
   - Gain experience planning projects with UML Diagrams before writing them
   - Gain experience using the java documentation tools
-  - Try to build a solid base program that will allow me to add new elements later on
+  - Try to build a solid base program that will allow me to add new elements as I go
 
 What I want to accomplish before adding graphics: 
-  - A class Box which repersents one box on a tic tac toe board 
   - A class Board which repersents the entire tic tac toe board
   - An AI which can read the board and choose the best move 
   
