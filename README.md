@@ -16,6 +16,5 @@ Once everything above is finished I want to create the graphical repersentation 
 
 Extra things that would be cool to add: 
   - The ablility to load and store information from games
-  - Something to make the game run like an app such as a launcher so that it would be easier for the average user to play
-  - 
+  - The ability to run the app with a icon through a launcher or other system. This would make it easier for the average user to play because they wouldn't have to go  through the command line. 
    
