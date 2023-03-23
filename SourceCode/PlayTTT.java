@@ -1,6 +1,6 @@
 
 public class PlayTTT {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        MainWin ttt = new MainWin("Tic Tac Toe");
     }
 }
