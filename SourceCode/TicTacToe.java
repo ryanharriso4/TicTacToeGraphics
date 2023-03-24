@@ -1,3 +1,5 @@
+import java.util.InputMismatchException;
+
 public class TicTacToe {
     private char[] board = new char[9];
     private int boxSize = 0;
@@ -21,7 +23,9 @@ public class TicTacToe {
     }
 
     public void setBox(int index, char symbol) {
-        board[index] = symbol;
+        if (board[index - 1] != ' ')
+            throw new IllegalArgumentException();
+        board[index - 1] = symbol;
     }
 
     public int checkBoard() {
