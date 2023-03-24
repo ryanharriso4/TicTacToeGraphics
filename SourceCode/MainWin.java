@@ -180,6 +180,8 @@ public class MainWin extends JFrame {
             else
                 JOptionPane.showMessageDialog(this, "Player two has won the game");
         }
+        if (board.checkBoard() == 0)
+            JOptionPane.showMessageDialog((this), "There has been a tie");
         turn++;
     }
 

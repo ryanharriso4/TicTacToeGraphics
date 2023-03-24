@@ -28,8 +28,18 @@ public class TicTacToe {
         board[index - 1] = symbol;
     }
 
+    public int optimalMove() {
+        return 0;
+    }
+
     public int checkBoard() {
         int checkValue = 0;
+
+        for (int i = 0; i < board.length; i++) {
+            if (board[i] == ' ')
+                checkValue = -1;
+        }
+
         for (int i = 0; i < 9; i += 3) {
             if ((board[i] == 'o') && (board[i + 1] == 'o') && (board[i + 2] == 'o') ||
                     (board[i] == 'x') && (board[i + 1] == 'x') && (board[i + 2] == 'x'))
