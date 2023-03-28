@@ -11,7 +11,5 @@ Main goal
   - Create a class Board which will represent the whole tic tac toe board
   - Create a class MainWin that will display the information stored in board
 
-Extra things that would be cool to add: 
-  - The ablility to load and store information from games
-  - The ability to run the app with a icon through a launcher or other system. This would make it easier for the average user to play because they wouldn't have to go  through the command line. 
+
    
